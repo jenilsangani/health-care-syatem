@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./dist/index-new.css">
     <!-- MATERIAL ICON -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -17,44 +18,45 @@
         <aside>
             <div class="top">
                 <div class="logo">
-                    <object data="/img/Vector.svg" width="80" height="78"> </object>
+                    <object data="./img/Vector.svg" width="80" height="78"> </object>
                 </div>
-                <h2>Vamsi Krishna</h2>
+                <h2 class="menuItemTitle" >Vamsi Krishna</h2>
             </div>
             <div class="sidebar">
-                <div class="close" id="close-btn"> <span class="material-icons-sharp">menu</span> </div>
-                <a href="#">
+                <div class="close" id="close-btn" onclick="toggleMenu()"> <span
+                        class="material-icons-sharp">clear</span> </div>
+                <a href="#" class="menuItem">
                     <span class="material-icons-sharp">grid_view</span>
-                    <h3>Dashboard</h3>
+                    <h3 class="menuItemTitle">Dashboard</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="menuItem">
                     <span class="material-icons-sharp">message</span>
-                    <h3>Chat</h3>
+                    <h3 class="menuItemTitle">Chat</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="menuItem">
                     <span class="material-icons-sharp">event_available</span>
-                    <h3>Appointments</h3>
+                    <h3 class="menuItemTitle">Appointments</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="menuItem">
                     <span class="material-icons-sharp">people</span>
-                    <h3>Patients</h3>
+                    <h3 class="menuItemTitle">Patients</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="menuItem">
                     <span class="material-icons-sharp">add_task</span>
-                    <h3>Vaccine Check-in</h3>
+                    <h3 class="menuItemTitle">Vaccine Check-in</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="menuItem">
                     <span class="material-icons-sharp">vaccines</span>
-                    <h3>Vaccinated Patients</h3>
+                    <h3 class="menuItemTitle">Vaccinated Patients</h3>
                 </a>
-                <a href="#" class="active">
-                    <span class="material-icons-sharp">settings </span>
-                    <h3>Settings</h3>
+                <a href="#" class="active menuItem">
+                    <span class=" material-icons-sharp">settings </span>
+                    <h3 class="menuItemTitle">Settings</h3>
                     <img src="./img/chevron-down.png" alt="">
                 </a>
-                <a href="#" class="logout">
-                    <span class="material-icons-sharp">logout</span>
-                    <h3>Logout</h3>
+                <a href="#" class="logout menuItem">
+                    <span class=" material-icons-sharp">logout</span>
+                    <h3 class="menuItemTitle">Logout</h3>
                 </a>
             </div>
         </aside>
