@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   list-style: none;
+  transition: all 374ms ease;
 }
 
 .topNavPlaceHolder {
