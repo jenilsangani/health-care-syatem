@@ -87,7 +87,6 @@ body .container aside .sidebar .close span {
   width: 24px;
 }
 body .container aside .sidebar .close:hover {
-  /* background-color: lightgrey; */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   transition: 1000ms all ease;
 }

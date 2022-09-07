@@ -89,10 +89,8 @@ body {
           }
         }
         .close:hover {
-          /* background-color: lightgrey; */
           box-shadow: 0px 0px 10px rgba($color: black, $alpha: 0.3);
           transition: 1000ms all ease;
-          // border: 2px solid gray;
         }
         a {
           font-style: normal;
@@ -174,10 +172,8 @@ body {
               font-weight: 600;
               color: #302e2c;
               margin-bottom: 20px;
-              // margin-bottom: 30px;
               h3 {
                 margin: 16px 0;
-                // margin-left: 0px;
                 text-overflow: ellipsis;
                 height: auto;
                 font-size: 18px;
@@ -253,7 +249,6 @@ body {
           .new {
             border-bottom: 1px solid rgba(#979795, 0.5);
             display: flex;
-            // margin: 0 210px;
             flex-direction: column;
             align-items: center;
             padding: 65px 290px;
