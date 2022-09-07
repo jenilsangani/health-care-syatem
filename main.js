@@ -16,7 +16,7 @@ function toggleMenu() {
     sidebar.style.width = "100px";
     downArrow.style.display = "none";
     clz.style.align_self = "center";
-    clz.style.margin = "auto";
+    clz.style.margin = "19px auto 34px auto";
     aside.style.width = "100px";
   } else if (!isMenuOpen) {
     menuItems.forEach(function (menuItem) {
@@ -25,7 +25,7 @@ function toggleMenu() {
     sidebar.style.width = "290px";
     downArrow.style.display = "block";
     clz.style.align_self = "flex-end";
-    clz.style.margin = "19px 17px 0 auto";
+    clz.style.margin = "19px 17px 34px auto";
     aside.style.width = "290px";
   }
 
