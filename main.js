@@ -18,7 +18,7 @@ function toggleMenu() {
     clz.style.align_self = "center";
     clz.style.margin = "19px auto 34px auto";
     aside.style.width = "100px";
-    clz.innerHTML = '<span class="material-icons-sharp">menu</span>'
+    clz.innerHTML = '<span class="material-icons-sharp">menu</span>';
   } else if (!isMenuOpen) {
     menuItems.forEach(function (menuItem) {
       menuItem.style.display = "inline";
